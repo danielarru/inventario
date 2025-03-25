@@ -15,3 +15,15 @@ Este proyecto es una aplicación sencilla de gestión de inventarios de producto
 1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/danielarru/inventario.git
+
+2. **Compilar el proyecto con Maven:**
+   ```bash
+   mvn clean install
+
+3. **Ejecutar la aplicación principal:**
+   ```bash
+   mvn exec:java
+
+## Instrucciones para Ejecutar las Pruebas Unitarias
+   ```bash
+   mvn test
